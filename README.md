@@ -4,8 +4,8 @@
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
-![Rating page - desktop](screenshots\screenshot-desktop.png)
-![Thank you page after rating and submitting - desktop](screenshots\screenshot-desktop-2.png)
+![Rating page - desktop](./screenshots/screenshot-desktop.png)
+![Thank you page after rating and submitting - desktop](./screenshots/screenshot-desktop-2.png)
 
 ### The challenge
 
