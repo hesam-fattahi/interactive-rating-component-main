@@ -22,3 +22,6 @@ The design should be as close as possible to the designs in the `design/` folder
 
 - Semantic HTML5 markup
 - CSS (Sass)
+
+### Live preview
+- [Live site URL](https://hesam-fattahi.github.io/interactive-rating-component-main/)
