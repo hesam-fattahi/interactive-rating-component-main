@@ -49,13 +49,13 @@ h1 {
   padding: 3rem;
 }
 
-.form {
+.question {
   height: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
 }
-.form__icon {
+.question__icon {
   background-color: hsl(213deg, 19%, 18%);
   width: 4.6rem;
   height: 4.6rem;
@@ -64,25 +64,25 @@ h1 {
   place-items: center;
   margin-bottom: 12%;
 }
-.form__heading {
+.question__heading {
   margin-bottom: 2%;
 }
-.form__paragraph {
+.question__paragraph {
   margin-bottom: 9%;
 }
-.form__radio {
+.question .form {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.form__radio input {
+.question .form input {
   display: none;
 }
-.form__radio input:checked + label {
+.question .form input:checked + label {
   background-color: hsl(25deg, 97%, 53%);
   color: white;
 }
-.form__radio label {
+.question .form label {
   cursor: pointer;
   background-color: hsl(213deg, 19%, 18%);
   color: hsl(217deg, 12%, 63%);
@@ -94,11 +94,11 @@ h1 {
   display: grid;
   place-items: center;
 }
-.form__radio label:hover {
+.question .form label:hover {
   background-color: hsl(216deg, 12%, 54%);
   color: white;
 }
-.form__submit {
+.question .btn-submit {
   border: none;
   cursor: pointer;
   font-family: inherit;
@@ -113,7 +113,7 @@ h1 {
   transition: 0.25s ease-out;
   margin-top: auto;
 }
-.form__submit:hover, .form__submit:active {
+.question .btn-submit:hover, .question .btn-submit:active {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(25deg, 97%, 53%);
 }

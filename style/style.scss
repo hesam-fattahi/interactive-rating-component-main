@@ -74,7 +74,7 @@ h1 {
   padding: 3rem;
 }
 
-.form {
+.question {
   height: 100%;
   position: relative;
   @include flex-col;
@@ -93,7 +93,7 @@ h1 {
     margin-bottom: 9%;
   }
 
-  &__radio {
+  .form {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,7 +122,7 @@ h1 {
     }
   }
 
-  &__submit {
+  .btn-submit {
     border: none;
     cursor: pointer;
     font-family: inherit;

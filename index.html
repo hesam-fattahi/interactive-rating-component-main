@@ -24,16 +24,16 @@
   </head>
   <body>
     <main class="card">
-      <form class="form">
-        <span class="form__icon">
+      <section class="question">
+        <span class="question__icon">
           <img src="images/icon-star.svg" alt="orange star icon" />
         </span>
-        <h1 class="form__heading">How did we do?</h1>
-        <p class="form__paragraph">
+        <h1 class="question__heading">How did we do?</h1>
+        <p class="question__paragraph">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <div class="form__radio">
+        <form class="form">
           <input type="radio" name="rating" id="rating--1" value="1" />
           <label for="rating--1">1</label>
 
@@ -48,11 +48,11 @@
 
           <input type="radio" name="rating" id="rating--5" value="5" />
           <label for="rating--5">5</label>
-        </div>
-        <button type="submit" class="form__submit">Submit</button>
+        </form>
+        <button type="submit" class="btn-submit">Submit</button>
         <span class="error hidden">You need to select a number.</span>
-      </form>
-      <div class="thanks hidden">
+      </section>
+      <section class="thanks hidden">
         <img
           class="thanks__img"
           src="images/illustration-thank-you.svg"
@@ -66,7 +66,7 @@
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
         </p>
-      </div>
+      </section>
     </main>
   </body>
 </html>

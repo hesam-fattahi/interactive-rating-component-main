@@ -1,9 +1,9 @@
 "use strict";
 
-const containerForm = document.querySelector(".form");
+const containerQuestion = document.querySelector(".question");
 const containerThanks = document.querySelector(".thanks");
 const radioBtns = [...document.querySelectorAll("input")];
-const btnSubmit = document.querySelector(".form__submit");
+const btnSubmit = document.querySelector(".btn-submit");
 const labelRating = document.querySelector(".rating");
 const errorMessage = document.querySelector(".error");
 
@@ -17,7 +17,7 @@ btnSubmit.addEventListener("click", (e) => {
     }
   });
   if (rating) {
-    containerForm.classList.toggle("hidden");
+    containerQuestion.classList.toggle("hidden");
     containerThanks.classList.toggle("hidden");
     labelRating.textContent = rating;
   } else {
