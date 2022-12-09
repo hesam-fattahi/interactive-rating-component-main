@@ -34,20 +34,23 @@
           is appreciated to help us improve our offering!
         </p>
         <form class="form">
-          <input type="radio" name="rating" id="rating--1" value="1" />
-          <label for="rating--1">1</label>
+          <fieldset>
+            <legend class="sr-only">Please choose a rating.</legend>
+            <input type="radio" name="rating" id="rating--1" value="1" />
+            <label for="rating--1">1</label>
 
-          <input type="radio" name="rating" id="rating--2" value="2" />
-          <label for="rating--2">2</label>
+            <input type="radio" name="rating" id="rating--2" value="2" />
+            <label for="rating--2">2</label>
 
-          <input type="radio" name="rating" id="rating--3" value="3" />
-          <label for="rating--3">3</label>
+            <input type="radio" name="rating" id="rating--3" value="3" />
+            <label for="rating--3">3</label>
 
-          <input type="radio" name="rating" id="rating--4" value="4" />
-          <label for="rating--4">4</label>
+            <input type="radio" name="rating" id="rating--4" value="4" />
+            <label for="rating--4">4</label>
 
-          <input type="radio" name="rating" id="rating--5" value="5" />
-          <label for="rating--5">5</label>
+            <input type="radio" name="rating" id="rating--5" value="5" />
+            <label for="rating--5">5</label>
+          </fieldset>
         </form>
         <button type="submit" class="btn-submit">Submit</button>
         <span class="error hidden">You need to select a number.</span>
